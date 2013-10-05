@@ -34,7 +34,6 @@
 
         <div class="reveal">
 
-            <!-- Any section element inside of this container is displayed as a slide -->
             <div class="slides">
                 <section>
                     <h2>Le code typographique français</h2>
@@ -62,7 +61,7 @@
                 </section>
 
                 <section>
-                    <h3>+ une quinzaine de cas particulier</h3>
+                    <h3>+ une quinzaine de cas particuliers</h3>
 
                     <ul>
                         <li>Noms de bateaux</li>
@@ -70,6 +69,7 @@
                         <li>Raisons sociales, sociétés</li>
                         <li>Les divinités</li>
                         <li>Les points cardinaux</li>
+                        <li>En début de citation</li>
                         <li>...</li>
                     </ul>
                 </section>
@@ -81,6 +81,7 @@
                         <li>Après un <code>: ou ;</code> dans une phrase</li>
                         <li>Aux point carninaux désignant une direction</li>
                         <li>Aux jours et aux mois</li>
+                        <li>...</li>
                     </ul>
                 </section>
 
@@ -97,8 +98,9 @@
 
                     <p class="footnote">* Régie autonome des transports parisiens</p>
                 </section>
+
                 <section>
-                    <h3>Et les sigles ?</h3>
+                    <h3>Convention commune</h3>
 
                     <ul>
                         <li><span class="correct">RATP</span></li>
@@ -112,14 +114,32 @@
                 </section>
 
                 <section>
+                    <img src="img/secret.jpg" alt="Sushi or not?" class="stretch no-border" />
+                </section>
+
+                <section data-state="protips">
+                    <h2>Protips ©</h2>
+                    <h4 class="no-caps">Comme HTML ? Tout en majuscule.</h4>
+                    <h4 class="no-caps">Sigle qui se lit ? Première lettre seulement.</h4>
+
+                    <p>Unesco, Unicef, HTML, RATP, SNCF.</p>
+                </section>
+
+
+                <section data-state="protips">
                     <h2>Les majuscules s'accentuent toujours !</h2>
 
-                    <p class="footnote">© Protip</p>
+                    <p>É À È Ô Ë sont vos amis.</p>
+                </section>
+
+                <section data-state="protips">
+                    <h2>J'AIME LES BISCUITS SALES</h2>
+
+                    <p>Sans accent, je passe pour un crade.</p>
                 </section>
 
                 <section>
                     <h2>Les abbréviations</h2>
-
 
                     <img class="no-border" src="img/docteur.png" alt="Docteur, on prend le D et le r." />
 
@@ -133,10 +153,8 @@
                         <li>Monsieur en <strong>Mr</strong></li>
                         <li class="fragment">Veut dire <em>Mister</em>. Utilisez <span class="correct">M.</span>.</li>
                         <li>Messieurs en <strong>Mrs</strong></li>
-                        <li class="fragment">Veut dire <em>Miss</em> ou <em>Mistress</em>. Utilisez <span class="correct">MM.</span>.</li>
+                        <li class="fragment">Veut dire <em>Mistress</em>. Utilisez <span class="correct">MM.</span>.</li>
                     </ul>
-
-                    <p class="footnote">* C'est encode mieux avec <code>&lt;sup&gt;&lt;/sup&gt;</code></p>
                 </section>
                 <section>
                     <h3>Les erreurs classiques</h3>
@@ -151,7 +169,6 @@
                     <p class="footnote">* C'est encode mieux avec <code>&lt;sup&gt;&lt;/sup&gt;</code></p>
                 </section>
 
-
                 <section>
                     <h2>Les guillemets</h2>
                 </section>
@@ -163,26 +180,56 @@
                     <img src="img/not-sure.png" alt="NOT" class="stretch no-border" />
                 </section>
 
+                <section data-state="protips">
+                    <h3>Citation, paroles, et nuance</h3>
+
+                    <p>À utiliser avec précaution...</p>
+                </section>
+
                 <section>
-                    <h1>Soyez consistant</h1>
+                    <h2>Un dernier pour finir</h2>
+
+                    <ul>
+                        <li>Tél. : 0899180729</li>
+                        <li>Tél. : 08 99 18 07 29</li>
+                        <li>Tél. : 08.99.18.07.29</li>
+                        <li>Tél. : 08-99-18-07-29</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Toujours une espace</h2>
+
+                    <ul>
+                        <li>Tél. : 0899180729</li>
+                        <li><span class="correct">Tél. : 08 99 18 07 29</span></li>
+                        <li>Tél. : 08.99.18.07.29</li>
+                        <li>Tél. : 08-99-18-07-29</li>
+                    </ul>
+                </section>
+
+                <section data-state="protips">
+                    <h1>Soyez constant</h1>
 
                     <p>Et allez à <a href="http://www.paris-web.fr/2013/ateliers/apres-la-macro-la-micro.php">l'atelier de Vincent Valentin</a>
-                        sur la micro-typographie demain !</p>
+                        sur<br /> la micro-typographie demain !</p>
                 </section>
 
                 <section>
                     <h2>Crédit &amp; bisous</h2>
 
-                    <p>Cette présentation est basée sur l'<em>Abrégé du code typographique à l'usage de la presse</em>, ISBN 9782351130667.</p>
+                    <p>Cette présentation est basée sur <br />
+                        l'<em>Abrégé du code typographique à l'usage de la presse</em>,<br />
+                        ISBN 9782351130667.</p>
 
-                    <p>Certaines règles peuvent être automatisée : <a href="https://github.com/jolicode/JoliTypo">JoliTypo</a> est un outil qui le fait en PHP.</p>
+                    <p>Pour les règles de ponctuation,<br />vous pouvez les automatiser avec <a href="https://github.com/jolicode/JoliTypo">JoliTypo</a> (en PHP).</p>
                 </section>
             </div>
 
         </div>
 
         <footer class="joli">
-            Le code typographique en 4 minutes - Paris Web 2013 - <a href="http://twitter.com/damienalexandre">@damienalexandre</a>
+            Le code typographique en 4 minutes - Paris Web 2013 - <a
+                href="http://twitter.com/damienalexandre">@damienalexandre</a> - <a href="http://jolicode.com/">JoliCode</a>
         </footer>
 
         <script src="lib/js/head.min.js"></script>
@@ -204,9 +251,9 @@
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
                     { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-                    { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    //{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    //{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    //{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
                     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
                     { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
                     // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
