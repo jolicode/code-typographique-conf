@@ -76,6 +76,9 @@ footer.joli {
 .reveal section sup {
   font-size: 0.7em; }
 
+@media print {
+  body {
+    background: black !important; } }
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
